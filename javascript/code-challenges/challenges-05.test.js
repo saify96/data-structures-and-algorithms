@@ -133,7 +133,8 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 
 const reversedString = (str) => {
   // Solution code here...
-  return str.reduce((acc,value)=>)
+  let newArr=str.split('');
+  return newArr.reduce((acc,value)=> value + acc,'')
 };
 
 /* ------------------------------------------------------------------------------------------------
