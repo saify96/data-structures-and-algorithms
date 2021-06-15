@@ -132,7 +132,6 @@ const listFoods = (recipe) => {
   let resultWithoutNum = [];
   let result = [];
 
-
   // Solution code here...
   for(let i=0;i<recipe.ingredients.length;i++){
     resultWithoutNum.push(recipe.ingredients[i].slice(recipe.ingredients[i].indexOf(' ')+1));
